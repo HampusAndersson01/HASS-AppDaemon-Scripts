@@ -1,0 +1,7 @@
+presence_lighting_app:
+  module: presence_lighting
+  class: PresenceLighting
+
+dashboard_nest_app:
+  module: dashboard_nest_app
+  class: DashboardToNestHubApp
