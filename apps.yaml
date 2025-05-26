@@ -34,3 +34,26 @@ lightning:
 dashboard_nest_app:
   module: dashboard_nest_app
   class: DashboardToNestHubApp
+
+# Nodalink - Context-aware automation engine
+nodalink:
+  module: Nodalink.scenario_engine
+  class: NodalinkEngine
+  scenario_file: /config/appdaemon/apps/Nodalink/scenarios.json
+  log_file: /config/appdaemon/apps/Nodalink/logs/unmatched_scenarios.log
+  time_bucket_minutes: 60
+  test_mode: false
+  fallback_enabled: true
+  # Allowed service domains for security
+  allowed_domains:
+    - light
+    - switch
+    - scene
+    - script
+    - automation
+    - media_player
+    - climate
+    - cover
+    - fan
+    - vacuum
+    - notify

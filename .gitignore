@@ -120,3 +120,5 @@ secrets.yaml
 
 # vscode
 .vscode/
+
+node_modules/
