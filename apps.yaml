@@ -41,11 +41,11 @@ nodalink:
   class: NodalinkEngine
   scenario_file: /config/appdaemon/apps/Nodalink/scenarios.json
   log_file: /config/appdaemon/apps/Nodalink/logs/unmatched_scenarios.log
+  config_file: /config/appdaemon/apps/Nodalink/config.json
   time_bucket_minutes: 60
   test_mode: false
   fallback_enabled: true
   ui_enabled: true
-  # Allowed service domains for security
   allowed_domains:
     - light
     - switch
