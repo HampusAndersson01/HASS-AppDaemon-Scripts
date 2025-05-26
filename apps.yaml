@@ -44,6 +44,7 @@ nodalink:
   time_bucket_minutes: 60
   test_mode: false
   fallback_enabled: true
+  ui_enabled: true
   # Allowed service domains for security
   allowed_domains:
     - light
