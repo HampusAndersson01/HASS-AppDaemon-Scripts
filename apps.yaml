@@ -37,11 +37,12 @@ dashboard_nest_app:
 
 # Nodalink - Context-aware automation engine
 nodalink:
-  module: Nodalink.scenario_engine
+  description: "Nodalink Scenario Engine"
+  module: scenario_engine
   class: NodalinkEngine
-  scenario_file: /config/appdaemon/apps/Nodalink/scenarios.json
-  log_file: /config/appdaemon/apps/Nodalink/logs/unmatched_scenarios.log
-  config_file: /config/appdaemon/apps/Nodalink/config.json
+  scenario_file: scenarios.json
+  log_file: logs/unmatched_scenarios.log
+  config_file: config.json
   time_bucket_minutes: 60
   test_mode: false
   fallback_enabled: true
